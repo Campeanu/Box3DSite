@@ -1,19 +1,20 @@
 <?php
-
-    session_start();
-
+session_start();
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Box3D</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -25,23 +26,22 @@
                         </b>
                     </a>
                 </li>
-                <li><a href="#"><b>Download </b></a></li>
-                <li><a href="#"><b>Marketplace  </b></a></li>
-                <li><a href="#"><b>Contact   </b></a></li>
-            
+                <li class "h"><a href="download.php"><b>Download </b></a></li>
+                <li class "h"><a href="marketplace.php"><b>Marketplace </b></a></li>
+                <li class "h"><a href="#"><b>Contact </b></a></li>
             </ul>
-            
+
             <div class="account">
                 <?php
-                    if(isset($_SESSION['userId'])) {
-                        echo 
-                        '<div class="logout-form">                                
+                if (isset($_SESSION['userId'])) {
+                    echo
+                        '<div class="logout-form">
                             <form action="includes/logout.inc.php" method="post">
                                 <button type="submit" name="logout-submit"><b>Logout</b></button>
                             </form>
                         </div>';
-                    } else {
-                        echo 
+                } else {
+                    echo
                         '<div class="login-form">
                             <form action="includes/login.inc.php" method="post">
                                 <input  type="text"     name="mailuid" placeholder="E-mail/Username">
@@ -50,7 +50,7 @@
                                 <a href="signup.php"><b>Signup</b></a>
                             </form>
                         </div>';
-                    }
+                }
                 ?>
             </div>
 
