@@ -147,6 +147,10 @@ nav ul li a.active .span5 {
     color: #ffffff;
 }
 
+nav ul li a {
+    text-decoration: none;
+}
+
 nav input[type="text"] {
     padding: 6px;
     margin-top: 10px;
@@ -425,7 +429,6 @@ main .signupError {
     line-height: 38px;
 
     background: #45b0e2;
-    border-radius: 5px;
     margin: 0 auto;
     margin-top: 50px;
     -webkit-box-shadow: -10px 12px 13px -8px rgba(0, 0, 0, 0.68);
@@ -454,7 +457,6 @@ main .signupError {
     line-height: 38px;
 
     background: #45b0e2;
-    border-radius: 5px;
     margin: 0 auto;
     margin-top: 50px;
     -webkit-box-shadow: -10px 12px 13px -8px rgba(0, 0, 0, 0.68);

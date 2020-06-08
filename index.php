@@ -18,6 +18,19 @@
             } else {
             ?>
                 <div id="helpdiv" class="logged-out"><b><p>You are logged out!</p></b></div>
+                <br>
+                <div class="container">
+                    <img src="res/box3dlauncher.png" alt="box3d" width = "100%">
+                    <br>
+                    <br>
+                    <img src="res/box3d.png" alt="box3d" width = "100%">
+                    <br>
+                    <br>
+                    <img src="res/portfolio.png" alt="box3d" width = "100%">
+                </div>
+                <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                    <a href="https://campeanu.github.io/Portfolio/index.html">Portfolio.com</a>
+                </div>
             <?php
             }
             ?>

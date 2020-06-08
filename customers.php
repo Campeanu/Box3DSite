@@ -67,7 +67,7 @@ $customers = $customer->getCustomers();
 ?>
     <link rel="stylesheet" href="style/style.css">
     <div class="log">
-        <a href="paypage.php"><h1 class="paypageh1">You need to be loged id !!!</h1></a>
+        <a href="paypage.php"><h1 class="paypageh1">You need to be logged in !!!</h1></a>
     </div>
 
 <?php

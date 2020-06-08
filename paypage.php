@@ -30,7 +30,7 @@
 ?>
     <link rel="stylesheet" href="style/style.css">
     <div class="log">
-        <a href="index.php"><h2 class="paypageh1">You need to be loged id !!!</h2></a>
+        <a href="index.php"><h2 class="paypageh1">You need to be logged in !!!</h2></a>
     </div>
 
 <?php

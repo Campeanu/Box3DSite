@@ -14,7 +14,7 @@ class Key
 
         // Prepare Query
         // $this->db->query('UPDATE users SET (haskey, userkey) VALUES (:haskey, :userkey) WHERE idUsers='.$_SESSION['userId'].'');
-        $this->db->query('UPDATE users SET haskey = 1, userkey = "ThisKeyShouldBeRandom." WHERE idUsers = ' . $_SESSION['userId'] . ';');
+        $this->db->query('UPDATE users SET haskey = 1, userkey = "ThisKeyShouldBeRandom" WHERE idUsers = ' . $_SESSION['userId'] . ';');
 
         // Bind Values
         // $this->db->bind(':haskey',  $data['haskey']);

@@ -69,7 +69,7 @@ $transactions = $transaction->getTransactions();
 ?>
     <link rel="stylesheet" href="style/style.css">
     <div class="log">
-        <a href="index.php"><h1 class="paypageh1">You need to be loged id !!!</h1></a>
+        <a href="index.php"><h1 class="paypageh1">You need to be logged in !!!</h1></a>
     </div>
 
 <?php
